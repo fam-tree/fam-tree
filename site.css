@@ -19,14 +19,14 @@ body { max-width: 100%; min-height: 100vh; overflow: wrap; font-family: 'Roboto'
       box-shadow: none;
       font-size: 100%; }
 
-      #grandparents, #parents, #kids { display: none; }
+      #step00, #parents, #kids { display: none; }
 
       .row {
         max-width: 100%;
         min-height: 5em;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         margin: 10px;
         padding: 15px;
@@ -47,17 +47,24 @@ body { max-width: 100%; min-height: 100vh; overflow: wrap; font-family: 'Roboto'
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  position: fixed;
   height: fit-content;
   max-width: 1000px;
   outline: 1px solid #000;
   margin: 0 auto;
   z-index: 5;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 15px;
   background: #fff; }
 
-#name { font-family: 'Briem Hand', sans-serif; min-width: 100%; height: fit-content; margin: 10px; }
-#birthday, #deceased { font-size: 1.2em; max-width: 100%; height: fit-content; margin: 10px; }
+#name {
+  font-family: 'Briem Hand', sans-serif;
+  min-width: 100%;
+  height: fit-content;
+  margin: 10px; }
+#birthday, #deceased { font-size: 1.2em; max-width: 100%; height: fit-content; padding: 10px; }
+#deceased { padding-left: 0; }
 #occupation { font-size: 1.1em; min-width: 100%; height: fit-content; margin: 10px; }
-#blurb { font-size: 1em; min-width: 100%; height: fit-content; margin: 10px; }
+#partner, #children, #parents {
+  font-size: 1em;
+  min-width: 100%;
+  height: fit-content;
+  margin: 10px; }

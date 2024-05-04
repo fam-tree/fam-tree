@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Family Tree</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <button class="generation" onclick="toggleRow('step00');">18th Century</button>
+    <div class="row" id="step00">
+      <button class="photo" onclick="toggleMenu('hermanus');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('catherine');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('antonia1');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('antonius');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('petrus');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('hendrina');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('antonia2');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('joannes1');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('joannes2');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo" onclick="toggleMenu('joanna');" style="background-image: url('./images/placeholder.jpg')"></button>
+    </div>
+    <button class="generation" onclick="toggleRow('step01');">19th Century</button>
+
+
+
+
+    <div id="tooltip">
+      <h2 id="name"></h2>
+      <p id="birthday"></p><p id="deceased"></p><br>
+      <p id="parents"></p>
+      <p id="partner"></p>
+      <p id="children"></p>
+      <p id="occupation"></p>
+    </div>
+
+
+</div>
+
+<footer></footer>
+<script type="text/javascript" src="site.js"></script>
+
+</body>
+</html>
