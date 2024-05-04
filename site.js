@@ -10,9 +10,8 @@ function toggleRow(generation) {
   if(document.getElementById(generation).style.display == "flex") {
     document.getElementById(generation).style.display = "none";
     document.getElementById('tooltip').style.display = "none"; }
-  else {
-    document.getElementById(generation).style.display = "flex";
-    generation_menu_open = true; }}
+  else
+    document.getElementById(generation).style.display = "flex"; }
 
 function toggleMenu(id) {
   if(document.getElementById('tooltip').style.display == "flex") {
