@@ -8,101 +8,107 @@
 
   <div class="container">
 
+    <button class="sort" id="sort" onclick="sortFamily();">Sort Family</button>
+
     <button class="generation" onclick="toggleRow('step00');">18th Century</button>
     <div class="row" id="step00">
-      <button class="photo" onclick="toggleMenu('hermanus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('catherine');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('antonia1');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('antonius');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('petrus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('hendrina');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('antonia2');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('joannes1');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('joannes2');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('joanna');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('hermanus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('catherine');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo vandenelsen" onclick="toggleMenu('antonius2');" style="background-image: url('./images/placeholder-omap.jpeg')"></button>
+      <button class="photo vandenelsen" onclick="toggleMenu('maria2');" style="background-image: url('./images/placeholder-omap.jpeg')"></button>
+      <button class="photo vandenelsen" onclick="toggleMenu('joannes3');" style="background-image: url('./images/placeholder-omap.jpeg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('antonia1');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('antonius1');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('petrus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('hendrina');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('antonia2');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo vandenelsen" onclick="toggleMenu('andries');" style="background-image: url('./images/placeholder-omap.jpeg')"></button>
+      <button class="photo vandenelsen" onclick="toggleMenu('anna');" style="background-image: url('./images/placeholder-omap.jpeg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('joannes1');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('joannes2');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('joanna');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
     </div>
     <button class="generation" onclick="toggleRow('step01');">19th Century</button>
     <div class="row" id="step01">
-      <button class="photo" onclick="toggleMenu('hermina');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('mathias');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('gertruda1');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('gertruy');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('jan');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('elisabeth');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('peter');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('hendricus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('arnoldus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('petronella');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('hermina');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('mathias');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('gertruda1');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('gertruy');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('jan');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('elisabeth');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('peter');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('hendricus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('arnoldus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('petronella');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
     </div>
     <button class="generation" onclick="toggleRow('step02');">19th - 20th Century</button>
     <div class="row" id="step02">
-      <button class="photo" onclick="toggleMenu('gerardus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('maria');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('gertruda2');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('henricus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('mathijs1');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('mathijs2');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('gerardus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('maria1');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('gertruda2');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('henricus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('mathijs1');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('mathijs2');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
     </div>
     <button class="generation" onclick="toggleRow('step03');">20th Century</button>
     <div class="row" id="step03">
-      <button class="photo" onclick="toggleMenu('martinus');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('antonia3');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('mietja');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('nelly');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('gerrit');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('sjef');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('thijs');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('john');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('corry');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('marty');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('garry');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('brenda');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('janice');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('randy');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('andy');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('kathi');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('carol');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('anita');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('annette');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('martinus');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('antonia3');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('mietja');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('nelly');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('gerrit');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('sjef');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('thijs');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('john');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('corry');" style="background-image: url('./images/Toonen, Corry/oma_thumbnail.png')"></button>
+      <button class="photo toonen" onclick="toggleMenu('marty');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('garry');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('brenda');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('janice');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('randy');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen underhill" onclick="toggleMenu('andy');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen underhill" onclick="toggleMenu('kathi');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('carol');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('anita');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('annette');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
     </div>
     <button class="generation" onclick="toggleRow('step04');">20th - 21st Century</button>
     <div class="row" id="step04">
-      <button class="photo" onclick="toggleMenu('shaun');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('jen');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('jon');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('teegan');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('brock');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('alissa');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('kerry');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('jessie');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('garrett');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('marti');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('annie');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('shaun');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('jen');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('jon');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('teegan');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('brock');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('alissa');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('kerry');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('jessie');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('garrett');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen underhill" onclick="toggleMenu('marti');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen underhill" onclick="toggleMenu('annie');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
     </div>
     <button class="generation" onclick="toggleRow('step05');">21st Century</button>
     <div class="row" id="step05">
-      <button class="photo" onclick="toggleMenu('shyla');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('alice');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('grace');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('oliver');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('shaylynn');" style="background-image: url('./images/placeholder.jpg')"></button>
-      <button class="photo" onclick="toggleMenu('june');" style="background-image: url('./images/placeholder.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('shyla');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('alice');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('grace');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('oliver');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('shaylynn');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
+      <button class="photo toonen" onclick="toggleMenu('june');" style="background-image: url('./images/placeholder-opap.jpg')"></button>
     </div>
 
-    <div id="tooltip">
-      <h2 id="name"></h2>
-      <p id="birthday"></p><p id="deceased"></p><br>
-      <p id="parents"></p>
-      <p id="partner"></p>
-      <p id="children"></p>
-      <p id="occupation"></p>
+    <div id="background" onclick="toggleMenu('');">
+      <div id="tooltip" onclick="toggleMenu('');">
+        <h2 id="name"></h2>
+        <p id="birthday"></p><p id="deceased"></p><br>
+        <p id="parents"></p>
+        <p id="partner"></p>
+        <p id="children"></p>
+        <p id="occupation"></p>
+      </div>
     </div>
 
+  </div> <!-- container -->
 
-</div>
-
-<footer></footer>
-<script type="text/javascript" src="site.js"></script>
-
+  <script type="text/javascript" src="site.js"></script>
 </body>
 </html>

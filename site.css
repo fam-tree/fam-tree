@@ -10,9 +10,19 @@ body { max-width: 100%; min-height: 100vh; overflow: wrap; font-family: 'Roboto'
     padding: 10px;
     z-index: 1; }
 
+    .sort {
+      width: 50%;
+      height: 3em;
+      margin: 10px;
+      margin-left: 0;
+      border: 1px solid #000;
+      box-shadow: none;
+      font-size: 100%;
+    }
+
     .generation {
       width: 100%;
-      height: 70px;
+      height: 5em;
       margin: 10px auto;
       background: none;
       border: 1px solid #000;
@@ -44,16 +54,30 @@ body { max-width: 100%; min-height: 100vh; overflow: wrap; font-family: 'Roboto'
 
 #tooltip {
   display: none;
+  position: fixed;
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  height: fit-content;
-  max-width: 1000px;
+  height: 50vh;
+  width: 86.7%;
   outline: 1px solid #000;
-  margin: 0 auto;
-  z-index: 5;
+  z-index: 5 !important;
   padding: 15px;
-  background: #fff; }
+  background: #fff;
+  top: 20%;
+  left: 5.5%;
+}
+  #background {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 4 !important;
+    background: rgba(0, 0, 0, 70%);
+    top: 0;
+    left: 0;
+  }
+    #king-box { z-index: 7 !important; }
 
 #name {
   font-family: 'Briem Hand', sans-serif;
