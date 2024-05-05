@@ -19,7 +19,7 @@ body { max-width: 100%; min-height: 100vh; overflow: wrap; font-family: 'Roboto'
       box-shadow: none;
       font-size: 100%; }
 
-      #step00, #step01 { display: none; }
+      #step00, #step01, #step02, #step03 { display: none; }
 
       .row {
         max-width: 100%;
