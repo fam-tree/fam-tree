@@ -272,6 +272,312 @@ function toggleMenu(id) {
         children.innerHTML = "Children: Mietja, Nelly, Gerrit, Sjef, Thijs, Johannes, Martien, Truus";
         job.innerHTML = "";
         break;
+      case 'mietja':
+        name.innerHTML = "Mietja (Maria) Hendriks (née Toonen)";
+        birthday.innerHTML = "March 5th, 1928";
+        death.innerHTML = " - ??? (Ovarian Cancer)";
+        parents.innerHTML = "Martinus & Antonia";
+        partner.innerHTML = "Partner: Ben Hendriks (September 20th, 1928 - June 16th, 2010; married April 5th, 1956)";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'nelly':
+        name.innerHTML = "Nelly Hendriks (née Toonen)";
+        birthday.innerHTML = "March 5th, 1928";
+        death.innerHTML = " - February 5th, 2005 (Stroke)";
+        parents.innerHTML = "Martinus & Antonia";
+        partner.innerHTML = "Partner: Martien Hendriks (January 13th, 1926 - January 9th, 2016)";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'gerrit':
+        name.innerHTML = "Gerrit Toonen";
+        birthday.innerHTML = "July 30th, 1929";
+        death.innerHTML = " - August 30th, 2007 (Tainted Blood Fusion Resulting in Inoperable Prostate Cancer)";
+        parents.innerHTML = "Martinus & Antonia";
+        partner.innerHTML = "Partner: Truus Toonen (née Hendriks) March 25th, 1933 - ???";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'sjef':
+        name.innerHTML = "Sjef Toonen";
+        birthday.innerHTML = "March 3rd, 1931";
+        death.innerHTML = " - November 8th, 2020 (Natural Causes)";
+        parents.innerHTML = "Martinus & Antonia";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'thijs':
+        name.innerHTML = "Thijs Toonen";
+        birthday.innerHTML = "August 29th, 1932";
+        death.innerHTML = " - September 12th, 2021 (Natural Causes)";
+        parents.innerHTML = "Martinus & Antonia";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'john':
+        name.innerHTML = "Johannes (John/Jan) Marcus Theodorus Toonen";
+        birthday.innerHTML = "April 25th, 1934";
+        death.innerHTML = "";
+        parents.innerHTML = "Martinus & Antonia";
+        partner.innerHTML = "Partner: Corry Toonen (née van den Elsen, married April 5th, 1956); Joanne Toonen (née , married )";
+        children.innerHTML = "Marty, Garry, Janice, Andy, Carol, Anita, Annette";
+        job.innerHTML = "Farmer";
+        break;
+      case 'corry':
+        name.innerHTML = "Cornelia (Corry) Catherina Josepha Toonen (née van den Elsen)";
+        birthday.innerHTML = "November 28th, 1934";
+        death.innerHTML = " - August 2nd, 1996 (Breast Cancer)";
+        parents.innerHTML = "Gerardus & Adriana";
+        partner.innerHTML = "Partner: John Toonen (married April 5th, 1956)";
+        children.innerHTML = "Marty, Garry, Janice, Andy, Carol, Anita, Annette";
+        job.innerHTML = "";
+        break;
+      case 'marty':
+        name.innerHTML = "Martien (Marty) Toonen";
+        birthday.innerHTML = "March 16th, 1957";
+        death.innerHTML = " - January 11th, 1978 (Leukemia)";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Lori Andress (born June 11th, 1957; married )";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'garry':
+        name.innerHTML = "Garry Toonen";
+        birthday.innerHTML = "August 15th, 1958";
+        death.innerHTML = "";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Brenda Toonen (née Anger; married )";
+        children.innerHTML = "John, Kerry, Jessie";
+        job.innerHTML = "Sonographer";
+        break;
+      case 'brenda':
+        name.innerHTML = "Brenda Toonen (née Anger)";
+        birthday.innerHTML = "March 21st, 1958";
+        death.innerHTML = "";
+        parents.innerHTML = "";
+        partner.innerHTML = "Partner: Garry Toonen";
+        children.innerHTML = "John, Kerry, Jessie";
+        job.innerHTML = "Nurse";
+        break;
+      case 'janice':
+        name.innerHTML = "Janice Matejcek (née Toonen)";
+        birthday.innerHTML = "July 26th, 1959";
+        death.innerHTML = " - September 23rd, 2000 (Car Accident)";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Randy Matejcek (married )";
+        children.innerHTML = "Shaun, Teegan, Garrett";
+        job.innerHTML = "Accountant";
+        break;
+      case 'randy':
+        name.innerHTML = "Randy Matejcek";
+        birthday.innerHTML = "November 25th, 1959";
+        death.innerHTML = " - May 22nd, 2002 (Suicide)";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Randy Matejcek (married )";
+        children.innerHTML = "Shaun, Teegan, Garrett";
+        job.innerHTML = "Farmer";
+        break;
+      case 'andy':
+        name.innerHTML = "Anthony (Andy) Peter Toonen";
+        birthday.innerHTML = "February 5th, 1961";
+        death.innerHTML = "";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Kim Kicksee (born September 24th, 1961; divorced); Kathi Lynn Underhill";
+        children.innerHTML = "Brock, Marti, Annie";
+        job.innerHTML = "Farmer";
+        break;
+      case 'kathi':
+        name.innerHTML = "Kathi Lynn Underhill";
+        birthday.innerHTML = "August 4th, 1961";
+        death.innerHTML = "";
+        parents.innerHTML = "Charlie & Bernadine";
+        partner.innerHTML = "Partner: Andy Toonen";
+        children.innerHTML = "Brock, Marti, Annie";
+        job.innerHTML = "";
+        break;
+      case 'carol':
+        name.innerHTML = "Carol Groeneveld (née Toonen)";
+        birthday.innerHTML = "August 21st, 1962";
+        death.innerHTML = "";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Paul Groeneveld (born April 18th, 1959; married )";
+        children.innerHTML = "";
+        job.innerHTML = "Accountant";
+        break;
+      case 'anita':
+        name.innerHTML = "Anita Whitworth (née Toonen)";
+        birthday.innerHTML = "February 18th, 1963";
+        death.innerHTML = "";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Steve Whitworth (born March 6th, 1963; married )";
+        children.innerHTML = "";
+        job.innerHTML = "Pharmacist";
+        break;
+      case 'annette':
+        name.innerHTML = "Annette Toonen";
+        birthday.innerHTML = "February 18th, 1963";
+        death.innerHTML = "";
+        parents.innerHTML = "John & Corry";
+        partner.innerHTML = "Partner: Mark Littell (divorced)";
+        children.innerHTML = "";
+        job.innerHTML = "Pharmacist";
+        break;
+      case 'shaun':
+        name.innerHTML = "Shaun Matejcek";
+        birthday.innerHTML = "April 16th, 1980";
+        death.innerHTML = "";
+        parents.innerHTML = "Randy & Janice";
+        partner.innerHTML = "Partner: Jen Lados (married )";
+        children.innerHTML = "Alice, Oliver";
+        job.innerHTML = "";
+        break;
+      case 'jen':
+        name.innerHTML = "Jen Lados";
+        birthday.innerHTML = "March 1st, ";
+        death.innerHTML = "";
+        parents.innerHTML = "";
+        partner.innerHTML = "Partner: Shaun Toonen (married )";
+        children.innerHTML = "Alice, Oliver";
+        job.innerHTML = "";
+        break;
+      case 'jon':
+        name.innerHTML = "Jon Toonen";
+        birthday.innerHTML = "August 15th, ";
+        death.innerHTML = "";
+        parents.innerHTML = "Garry & Brenda";
+        partner.innerHTML = "Partner: Joanna Wesolowski (born February 8th, ; )";
+        children.innerHTML = "Alice, Oliver";
+        job.innerHTML = "";
+        break;
+      case 'teegan':
+        name.innerHTML = "Teegan (née Matejcek?)";
+        birthday.innerHTML = "February 1st, 1985";
+        death.innerHTML = "";
+        parents.innerHTML = "";
+        partner.innerHTML = "Partner: ";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'brock':
+        name.innerHTML = "Brock Toonen";
+        birthday.innerHTML = "November 5th, 1986";
+        death.innerHTML = "";
+        parents.innerHTML = "Andy & Kim";
+        partner.innerHTML = "Partner: Alissa Wilson (married October 27th, 2018)";
+        children.innerHTML = "Shyla, Grace";
+        job.innerHTML = "";
+        break;
+      case 'alissa':
+        name.innerHTML = "Alissa Toonen (née Wilson)";
+        birthday.innerHTML = "";
+        death.innerHTML = "";
+        parents.innerHTML = "";
+        partner.innerHTML = "Partner: Brock Toonen (married October 27th, 2018)";
+        children.innerHTML = "Shyla, Grace";
+        job.innerHTML = "";
+        break;
+      case 'kerry':
+        name.innerHTML = "Kerry (née Toonen?)";
+        birthday.innerHTML = "May 21st, ";
+        death.innerHTML = "";
+        parents.innerHTML = "Garry & Brenda";
+        partner.innerHTML = "Partner: Hyunsoo Kim (born ; married )";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'jesse':
+        name.innerHTML = "Jesse (née Toonen?)";
+        birthday.innerHTML = "April 18th, ";
+        death.innerHTML = "";
+        parents.innerHTML = "Garry & Brenda";
+        partner.innerHTML = "Partner: Tom Higson (born ; married )";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'garrett':
+        name.innerHTML = "Garrett Matejcek";
+        birthday.innerHTML = "January 9th, 1990";
+        death.innerHTML = "";
+        parents.innerHTML = "Randy & Janice";
+        partner.innerHTML = "Partner: Donna Langel (born )";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'marti':
+        name.innerHTML = "Marti Toonen";
+        birthday.innerHTML = "September 4th, 1995";
+        death.innerHTML = "";
+        parents.innerHTML = "Andy & Kathi";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'annie':
+        name.innerHTML = "Annie Toonen";
+        birthday.innerHTML = "December 4th, 1999";
+        death.innerHTML = "";
+        parents.innerHTML = "Andy & Kathi";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'shyla':
+        name.innerHTML = "Shyla Toonen";
+        birthday.innerHTML = "October 1st, 2009";
+        death.innerHTML = "";
+        parents.innerHTML = "Brock & Alissa";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'alice':
+        name.innerHTML = "Alice Matejcek";
+        birthday.innerHTML = "";
+        death.innerHTML = "";
+        parents.innerHTML = "Shaun & Jen";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'grace':
+        name.innerHTML = "Grace Toonen";
+        birthday.innerHTML = "June 8th, 20";
+        death.innerHTML = "";
+        parents.innerHTML = "Brock & Alissa";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'oliver':
+        name.innerHTML = "Oliver Matejcek";
+        birthday.innerHTML = "";
+        death.innerHTML = "";
+        parents.innerHTML = "Shaun & Jen";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'shaylynn':
+        name.innerHTML = "Shaylynn";
+        birthday.innerHTML = "";
+        death.innerHTML = "";
+        parents.innerHTML = "Jesse & Tom";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
+      case 'june':
+        name.innerHTML = "June";
+        birthday.innerHTML = "";
+        death.innerHTML = "";
+        parents.innerHTML = "Jesse & Tom";
+        partner.innerHTML = "";
+        children.innerHTML = "";
+        job.innerHTML = "";
+        break;
     case null:
       alert('tell marti it said null and who you clicked on');
       break;
